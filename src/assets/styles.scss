@@ -1,0 +1,92 @@
+@import "variables.scss";
+
+body {
+  background-color: rgb(244, 245, 248);
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper {
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 20px;
+  margin-top: 10%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.main_info-item {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.main-header {
+  font-size: 30px;
+  font-family: $base-font;
+  color: rgb(244, 245, 248);
+}
+.main_info_key {
+  font-size: 16px;
+  font-family: $base-font;
+  color: rgb(134, 134, 135);
+  font-weight: 400;
+}
+.main_info_input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.809);
+  font-family: $base-font;
+  font-size: 15px;
+  color: rgb(134, 134, 135);
+}
+.date {
+    width: 203px;
+  height: 35px;
+}
+.main_info_select {
+  width: 205px;
+  height: 35px;
+  font-size: 15px;
+  color: rgb(134, 134, 135);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.main_info_select_multiple {
+    width: 205px;
+  height: 60px;
+  font-size: 15px;
+  color: rgb(134, 134, 135);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.main_info_checkbox {
+  width: 100px;
+  height: 25px;
+  margin: 0;
+  cursor: pointer;
+}
+.link-to {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: $base-font;
+  color: rgb(134, 134, 135);
+  background-color: ivory;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.link-to:hover {
+  transition: 0.2s;
+  background-color: rgb(134, 134, 135);
+  color: ivory;
+}
