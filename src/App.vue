@@ -6,14 +6,10 @@
 </template>
 
 <script>
-import MainInfo from "./components/MainInfo.vue";
-
-export default {
-  components: { MainInfo}
-}
-
 </script>
 
 <style lang="scss">
 @import "./assets/styles.scss";
+@import "./assets/mobile-styles.scss";
 </style>
+
